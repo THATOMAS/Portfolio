@@ -8,7 +8,7 @@ const Home = ()=>{
         <article className='single-page'>
             <div className='navbar'>
                 <div id='navbar-print'></div>
-                <div className='Logo'></div>
+                <div id='Logo'></div>
                <div className='all-links'> {PageLinks.map((item)=>{
                     return (
                         <Link to={item.path} className={item.cName}>{item.name}</Link>
