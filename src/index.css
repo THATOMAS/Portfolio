@@ -20,6 +20,7 @@ code {
 .single-page{
   width: 100vw;
   height: 100vh;
+  
 }
 
 /* Navbar At the top */
@@ -66,7 +67,7 @@ border-style: none;
   sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 2em;
   margin-left: 25px;
 
 }
@@ -75,14 +76,14 @@ border-style: none;
   border-radius: 10px;
   text-align: center;
   height: 50px;
-  width: 120px;
+  width: 4.5em;
   background: #FFCB05;
 }
 .hire-me{
   border-radius: 10px;
   text-align: center;
   height: 50px;
-  width: 120px;
+  width: 4.5em;
   background: #FFCB05;
 }
 
@@ -125,14 +126,14 @@ border-style: none;
   font-family: 'Inter',
   sans-serif;
   color: black;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 .highlight {
   font-family: 'Inter',
   sans-serif;
   color: #ea292d;
-  font-size: 36px;
+  font-size: 1.1em;
 }
 
 #hello-emoji{
@@ -146,11 +147,11 @@ border-style: none;
 #front-end{
   font-family: 'Inter',
   sans-serif;
-font-size: 48px;}
+font-size: 3.5em;}
 
 #text{
   font-family: 'Inter','sans-serif';
-  font-size: 24px;
+  font-size: 2em;
   font-weight: 400;
   letter-spacing: 0em;
   text-align: center;
@@ -163,4 +164,38 @@ font-size: 48px;}
   background: url('./assets/HomePage/TT.png');
   background-position: center;
   background-repeat: no-repeat;
+  filter: drop-shadow(10px 10px 51px rgba(0, 0, 0, 0.25));
+}
+
+/* Bottom boxes in the home page  */
+.bottom-page-boxes{
+  height: 22.72vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.bottom-box{
+width: 30vw;
+height: 11.52vh;
+left: 952px;
+top: 805px;
+
+background: rgba(56, 62, 69, 0.44);
+border-radius: 10px;
+background: #004D4C;
+filter: drop-shadow(10px 10px 51px rgba(0, 0, 0, 0.25));
+display: flex;
+align-items: center;
+
+}
+
+.box-icon{
+  width: 5em;
+  height: 5em;
+  border: 2px solid black;
+  border-radius: 150px;
+  margin-left: 30px;
 }

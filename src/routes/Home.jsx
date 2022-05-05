@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import PageLinks from './../Links'
-
+import Boxes from './../Boxes'
 
 const Home = ()=>{
     return(
@@ -24,6 +24,13 @@ const Home = ()=>{
                     <h2 id='front-end'>Front-End Developer</h2>
                     <p id='text'>I design and code beautiful Websites, and I love what I do.</p>
                     <div className='small-photo'></div>
+                </div>
+                <div className='bottom-page-boxes'>
+                    {Boxes.map((box)=>{
+                        return (<div className={box.cName}>
+                            <div className='box-icon' style={{background:`url(${box.img})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}  ></div>
+                        </div>)
+                    })}
                 </div>
         </article>
     )
