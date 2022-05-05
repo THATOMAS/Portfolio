@@ -22,10 +22,11 @@ code {
   height: 100vh;
 }
 
+/* Navbar At the top */
 .navbar{
   position: absolute;
   width: 100vw;
-  height: 140px;
+  height: 14.304vh;
   left: 0px;
   top: 0px;
   
@@ -70,6 +71,7 @@ border-style: none;
 
 }
 .link:hover{
+  font-family: 'Poppins';
   border-radius: 10px;
   text-align: center;
   height: 50px;
@@ -97,4 +99,68 @@ border-style: none;
   margin-left: 10vw;
   position: absolute;
   left: 50vw;
+}
+
+/* Page txt and photo at the center  */
+
+.first-page-center{
+  height: 62.976vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+#hi-im{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 3px;
+
+}
+
+.name {
+  font-family: 'Inter',
+  sans-serif;
+  color: black;
+  font-size: 32px;
+}
+
+.highlight {
+  font-family: 'Inter',
+  sans-serif;
+  color: #ea292d;
+  font-size: 36px;
+}
+
+#hello-emoji{
+  margin-left: 25px;
+  width: 32px;
+  height: 51px;
+  background:url('./assets/HomePage/Hey.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#front-end{
+  font-family: 'Inter',
+  sans-serif;
+font-size: 48px;}
+
+#text{
+  font-family: 'Inter','sans-serif';
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.small-photo{
+  width: 206px;
+  height: 206px;
+  border: 8px solid #EC1A24;
+  border-radius: 150px;
+  background: url('./assets/HomePage/TT.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }

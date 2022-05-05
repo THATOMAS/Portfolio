@@ -15,8 +15,16 @@ const Home = ()=>{
                     )
                 })} 
                 </div>
-
             </div>
+            <div className='first-page-center'>
+                    <div id='hi-im'>
+                        <h2 className='name'>Hi,I Am <span className='name highlight'>Thato Mashori</span></h2> 
+                        <div id='hello-emoji'></div>
+                     </div>
+                    <h2 id='front-end'>Front-End Developer</h2>
+                    <p id='text'>I design and code beautiful Websites, and I love what I do.</p>
+                    <div className='small-photo'></div>
+                </div>
         </article>
     )
 
