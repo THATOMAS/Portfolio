@@ -1,21 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import PageLinks from './../Links'
 import Boxes from './../Boxes'
 
 const Home = ()=>{
     return(
         <article className='single-page'>
-            <div className='navbar'>
-                <div id='navbar-print'></div>
-                <Link to='/' id='Logo'></Link>
-               <div className='all-links'> {PageLinks.map((item)=>{
-                    return (
-                        <Link to={item.path} className={item.cName}>{item.name}</Link>
-                    )
-                })} 
-                </div>
-            </div>
             <div className='first-page-center'>
                     <div id='hi-im'>
                         <h2 className='name'>Hi,I Am <span className='name highlight'>Thato Mashori</span></h2> 

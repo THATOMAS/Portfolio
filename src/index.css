@@ -17,11 +17,6 @@ code {
     monospace;
 }
 
-.single-page{
-  width: 100vw;
-  height: 100vh;
-  
-}
 
 /* Navbar At the top */
 .navbar{
@@ -84,7 +79,7 @@ border-style: none;
   text-align: center;
   height: 50px;
   width: 4.5em;
-  background: #FFCB05;
+  background: #ea292d;
 }
 
 .hire-me:hover{
@@ -216,4 +211,73 @@ align-content: baseline;
     height: 70px;
     background: url('./assets/HomePage/ndebele.png');
     background-size: contain;
+}
+
+/* About Page */
+#about-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./assets/AboutPage/Background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#about-page-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  
+}
+
+#about-page-photo{
+  width: 33.84vw;
+    height: 45.12vh;
+    background: url('./assets/AboutPage/goodPic.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.5em;
+}
+#about-page-info{
+margin-left: 5em;
+width: 33.84vw;
+height: 45.12vh;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+
+}
+
+#about-page-text{
+    color: black;
+    font-size: 32px;
+    font-weight:bolder;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+#hire-me{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    height: 67px;
+    background: #FFCB05;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: -15px; */
 }

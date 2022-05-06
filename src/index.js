@@ -8,18 +8,20 @@ import About from "./routes/About";
 import Skills from "./routes/Skills";
 import Portfolio from "./routes/Portfolio";
 import Contact from "./routes/Contact";
-
+import Home from "./routes/Home";
 const root = document.getElementById("root");
 
 render(
   <main>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Skills" element={<Skills />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/" element={<App />}>
+          <Route index element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Route>
       </Routes>
     </Router>
   </main>,
