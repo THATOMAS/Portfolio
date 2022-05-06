@@ -8,7 +8,7 @@ const Home = ()=>{
         <article className='single-page'>
             <div className='navbar'>
                 <div id='navbar-print'></div>
-                <div id='Logo'></div>
+                <Link to='/' id='Logo'></Link>
                <div className='all-links'> {PageLinks.map((item)=>{
                     return (
                         <Link to={item.path} className={item.cName}>{item.name}</Link>
@@ -27,11 +27,31 @@ const Home = ()=>{
                 </div>
                 <div className='bottom-page-boxes'>
                     {Boxes.map((box)=>{
-                        return (<div className={box.cName}>
-                            <div className='box-icon' style={{background:`url(${box.img})`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}  ></div>
-                        </div>)
+                        return (<div className={box.cName} 
+                        key={box.id}
+                        >
+                            <div className='box-icon' 
+                            style={{background:`url(${box.img})`,
+                            backgroundPosition:'center',
+                            backgroundRepeat:'no-repeat',
+                            backgroundSize:'cover',
+                            gridArea:'1 / 1 / span 1/ span 1'}}>
+                            </div>
+                            <div className='box-info'
+                        style={{gridArea:'1 / 2 / span 1/ span 2 '}}>
+                                <h4 style={{color:'#FFCB05',fontSize:'1.5em'}}>
+                                    {box.topInfo }<br/>
+                                    <p style={{color:'white',fontSize:'1em'}}>{box.info}</p>
+                                </h4>
+                            </div>
+                            
+                        </div>
+                        )
                     })}
                 </div>
+                <div className='ndebele-pattern'>
+
+                    </div>
         </article>
     )
 

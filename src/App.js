@@ -10,10 +10,6 @@ const App = () => {
   return (
     <section>
       <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Contact />
     </section>
   );
 };
