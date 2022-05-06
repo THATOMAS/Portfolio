@@ -16,7 +16,7 @@ const About = ()=>{
                     <br/><br/>
                     I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts.
                 </p>
-                <Link to='/Contact' id='hire-me'><h2>Hire Me</h2></Link>
+                <Link to='/Contact' className='hire-me'><h2>Hire Me</h2></Link>
             </div>
             </div>
             

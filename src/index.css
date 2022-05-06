@@ -67,25 +67,18 @@ border-style: none;
 
 }
 .link:hover{
-  font-family: 'Poppins';
-  border-radius: 10px;
-  text-align: center;
-  height: 50px;
-  width: 4.5em;
-  background: #FFCB05;
-}
-.hire-me{
-  border-radius: 10px;
-  text-align: center;
-  height: 50px;
-  width: 4.5em;
-  background: #ea292d;
-}
 
-.hire-me:hover{
-  background: white;
-  color: black;
-  transform: scale(1.2);
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    height: 67px;
+    background: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 
@@ -267,7 +260,7 @@ height: 45.12vh;
     
 }
 
-#hire-me{
+.hire-me{
   display: flex;
     flex-direction: row;
     justify-content: center;
@@ -281,3 +274,55 @@ height: 45.12vh;
     font-weight: bolder;
     /* margin-top: -15px; */
 }
+
+/* Skills Page  */
+
+#skills-page{
+  height: 100vh;
+  display: flex;
+  align-items:flex-end;
+  background: url('./assets/SkillsPage/Background.jpg');
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#skills-center{
+  height:70vh;
+  width: 100vw;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#skills-info{
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3em;
+}
+
+#skills-icons-box{
+  height: 80%;
+    width: 60%;
+    display: flex;
+      align-items: center;
+      
+      margin-left: 5em;
+}
+
+#skills-icons{
+  height: 40%;
+    width: 100%;
+  background:url('./assets/SkillsPage/icons.png');
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+
+  
+  }
