@@ -167,7 +167,7 @@ font-size: 3.5em;}
 
 .bottom-box{
 width: 30vw;
-height: 11.52vh;
+height: fit-content;
 left: 952px;
 top: 805px;
 
@@ -364,18 +364,25 @@ width: 100vw;
 
 .portfolio-button{
   display: flex;
+  color: white;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 5em;
     height: 2.5em;
-    background: #FFCB05;
+    background: #215574;
     border-radius: 50px;
     font-size: 1.7em;
     font-weight: bold;
-    border: 1px solid black;
+    border: 2px solid black;
 
 }
+
+.portfolio-button:hover{
+  background: #FFCB05;
+  color: black;
+}
+
 
 .portfolio-button:hover {
   cursor: pointer;
@@ -385,4 +392,13 @@ width: 100vw;
   height: 0.2em;
   width: 30vw;
   background: black;
+}
+
+#portfolio-projects{
+  height: max-content;
+  width: 100vw;
+  display: flex;
+  align-items:space-evenly;
+  justify-content:space-around;
+  flex-wrap:wrap;
 }
