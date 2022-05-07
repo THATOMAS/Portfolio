@@ -41,10 +41,12 @@ const Portfolio = ()=>{
                         style={{height:'50vh',
                         width:'32vw',
                         margin:'1em',
-                        background:`red`,
-                        borderRadius:'0.5em'
-                        
-                        
+                        background:`url(${project.img})`,
+                        backgroundPosition:'center',
+                        backgroundRepeat:'no-repeat',
+                        backgroundSize:'cover',
+                        borderRadius:'0.5em',
+                        // border:'1px solid black'
                         
                         }}>
 

@@ -390,15 +390,18 @@ width: 100vw;
 }
 #underline{
   height: 0.2em;
-  width: 30vw;
+  width: 20em;
   background: black;
+  position: relative;
+  top:2em;
 }
 
 #portfolio-projects{
   height: max-content;
   width: 100vw;
   display: flex;
-  align-items:space-evenly;
+  align-items:space-around;
   justify-content:space-around;
   flex-wrap:wrap;
+  margin-top:5em ;
 }
