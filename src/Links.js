@@ -21,14 +21,14 @@ const Links = [
     path: "/Portfolio",
     cName: "link",
   },
-  {
-    name: "Contact",
-    path: "/Contact",
-    cName: "link",
-  },
+  // {
+  //   name: "Contact",
+  //   path: "/Contact",
+  //   cName: "link",
+  // },
   {
     name: "Hire Me",
-    path: "/Contact",
+    path: "/Hire-me",
     cName: "link hire-me",
   },
 ];

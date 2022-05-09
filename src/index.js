@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./routes/About";
 import Skills from "./routes/Skills";
 import Portfolio from "./routes/Portfolio";
-import Contact from "./routes/Contact";
+import HireMe from "./routes/HireMe";
 import Home from "./routes/Home";
 const root = document.getElementById("root");
 
@@ -20,7 +20,7 @@ render(
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Hire-me" element={<HireMe />} />
         </Route>
       </Routes>
     </Router>

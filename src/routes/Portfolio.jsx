@@ -2,8 +2,11 @@
 import React ,{useState}from 'react'
 import Buttons from '../PortfolioButtons';
 import Projects from '../Projects'
+import InfoBox from '../InfoBox'
+
 const Portfolio = ()=>{
 
+    
     const [projects,setProjects] = useState(Projects)
 
     const filterProjects = (category)=>{
@@ -13,9 +16,8 @@ const Portfolio = ()=>{
             setProjects(Projects)
             return
         }
-        
-   
     }
+
 
     return(
         <article id='portfolio-page' className='single-page'>
@@ -36,7 +38,11 @@ const Portfolio = ()=>{
                 {projects.map((project)=>{
 
                     return (
-                        <div key={project.id} 
+                        <div id='project-box'>
+                        <p style={{fontSize:'2.5em',color:'black',fontWeight:"bold",margin:'1em',}}>{project.name}</p>
+
+                        <div 
+                        key={project.id} 
                         className={project.cName} 
                         style={{height:'50vh',
                         width:'32vw',
@@ -46,10 +52,12 @@ const Portfolio = ()=>{
                         backgroundRepeat:'no-repeat',
                         backgroundSize:'cover',
                         borderRadius:'0.5em',
-                        // border:'1px solid black'
-                        
+                        border:'5px solid #FFCB05',
+                        cursor:'pointer',
+                       
                         }}>
 
+                        </div>
                         </div>
                     )
                 })}
