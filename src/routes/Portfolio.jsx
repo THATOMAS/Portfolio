@@ -41,23 +41,29 @@ const Portfolio = ()=>{
                         <div id='project-box'>
                         <p style={{fontSize:'2.5em',color:'black',fontWeight:"bold",margin:'1em',}}>{project.name}</p>
 
-                        <div 
+                        <a
+                        href={project.link} 
                         key={project.id} 
                         className={project.cName} 
-                        style={{height:'50vh',
-                        width:'32vw',
+                        style={{height:'40em',
+                        width:'35em',
                         margin:'1em',
                         background:`url(${project.img})`,
-                        backgroundPosition:'center',
+                        backgroundPosition:'left center',
                         backgroundRepeat:'no-repeat',
-                        backgroundSize:'cover',
+                        backgroundSize:'512px 315px',
                         borderRadius:'0.5em',
                         border:'5px solid #FFCB05',
                         cursor:'pointer',
-                       
-                        }}>
+                        display:"flex",
+                        flexWrap:"wrap",
+                        alignItems:'flex-start',
+                        justifyContent:'center'
 
-                        </div>
+                        }}>
+                    
+                        </a>
+
                         </div>
                     )
                 })}

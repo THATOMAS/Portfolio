@@ -8,15 +8,18 @@ const Navbar=()=>{
 <div className='navbar'>
                 <div id='navbar-print'></div>
                 <Link to='/' id='Logo'></Link>
+
                <div className='all-links'> {PageLinks.map((item)=>{
                     return (
                         <Link to={item.path} className={item.cName}>{item.name}</Link>)
                         }
                     )
                 } 
-                </div>
+                </div> 
+                
 </div>
-<Outlet/>
+
+<Outlet />
 </article>)
 }
 

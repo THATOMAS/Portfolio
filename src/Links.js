@@ -31,6 +31,7 @@ const Links = [
     path: "/Hire-me",
     cName: "link hire-me",
   },
+  
 ];
 
 export default Links;

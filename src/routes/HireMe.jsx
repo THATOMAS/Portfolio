@@ -12,7 +12,7 @@ const whatsapp = require('../assets/HireMePage/whatsapp.png')
         <article id='hire-me-page'className='single-page'>
             
             <div id='contact-me-box'>
-                <div id='i-hope-text'><p style={{fontSize:'4em',color:'black',fontWeight:'bold',marginLeft:'1em'}}>Hola !<br/><br/>I hope i have done enough to impress you,please get in touch with me. </p></div>
+                <div id='i-hope-text'><p style={{fontSize:'3em',color:'black',fontWeight:'bold',marginLeft:'1em'}}>Hello !<br/><br/>I hope i have done enough to impress you,please get in touch with me. </p></div>
                 <div id='contact-me-icons'>
                     
 
@@ -20,8 +20,8 @@ const whatsapp = require('../assets/HireMePage/whatsapp.png')
                     backgroundRepeat:'no-repeat',
                                     backgroundSize:'contain',
                                     backgroundPosition:'center',
-                                    height:'4em',
-                                    width:'4em'
+                                    height:'3em',
+                                    width:'3em'
                 }}></div>
                     <p style={{fontSize:'2em',fontWeight:'bold'}}>081 472 1948</p>
                     {ContactInfo.map((contact,index)=>{
@@ -38,8 +38,8 @@ const whatsapp = require('../assets/HireMePage/whatsapp.png')
                                     backgroundRepeat:'no-repeat',
                                     backgroundSize:'contain',
                                     backgroundPosition:'center',
-                                    height:'4em',
-                                    width:'4em'
+                                    height:'3em',
+                                    width:'3em'
                                 }} >
                                 </div>
                                 <p style={{fontSize:'2em',fontWeight:'bold'}}>{contact.info}</p>
@@ -57,7 +57,7 @@ const whatsapp = require('../assets/HireMePage/whatsapp.png')
                     width:'20vw',}}>
                         <h3 style={{fontSize:'2em',color:'#FFCB05',marginLeft:'0.5em'}}>Thato Mashori .</h3>
                         <p style={{fontSize:'1.5em',color:'white',marginLeft:'0.5em'}}>Front-End Developer & Designer</p>    
-                </div>
+             </div>
                 <div style={{display:'flex',
                     flexDirection:'column',
                     alignItems:'center',

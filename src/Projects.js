@@ -49,6 +49,57 @@ const Projects = [
     category: "Mern",
     cName: "single-project",
   },
+  {
+    id:7,
+    name:"Space",
+    info:"This is  bespoke furniture website",
+    img:require("./assets/Portfolio/space.png"),
+    category:"Figma",
+    cName:"single-project",
+    link:"https://www.figma.com/file/yb923lBQWgI5ctMbt3jFUp/Space-furniture?node-id=0%3A1"      
+  },
+   {
+    id:7,
+    name:"Dreams Real Estate",
+    info:"This is a Luxury Estate website",
+    img:require("./assets/Portfolio/realEstate.png"),
+    category:"Figma",
+    cName:"single-project",
+    link:"https://www.figma.com/file/zUOWpk8TaN9CWWvYylX2Wl/Dreams-Real-estate?node-id=24%3A2"      
+  },
+  {
+    id:8,
+    name:"Portfolio",
+    info:"This is my peronal Portfolio",
+    img:require("./assets/Portfolio/portfolio.png"),
+    category:"Figma",
+    cName:"single-project",
+    link:"https://www.figma.com/file/NQFYHvJIuNdVi5btO1MuWf/ThatoMashoriPortfolio?node-id=102%3A3"      
+  },
+  {
+    id:8,
+    name:"Education Is Key",
+    info:"This is an education website designed for teachers and students",
+    img:require("./assets/Portfolio/Teachers.png"),
+    category:"Figma",
+    cName:"single-project",
+    link:"https://www.figma.com/file/JEN3hjFqDf33tNyjBql5BO/websiteDesign?node-id=0%3A1"      
+  },
+  {
+    id:9,
+    name:"Resume",
+    info:"Besides designing for websites, i love to use Figma for other purposes too,like creating resume files",
+    img:require("./assets/Portfolio/Resume.png"),
+    category:"Figma",
+    cName:"single-project",
+    link:"https://www.figma.com/file/eiZFRZkF3qNIxOhtmwv6VS/MyResume?node-id=606%3A137"      
+  }
+
+
+
+
+
+
 ];
 
 export default Projects;
