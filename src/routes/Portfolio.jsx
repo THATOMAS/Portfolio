@@ -39,26 +39,25 @@ const Portfolio = ()=>{
 
                     return (
                         <div id='project-box'>
-                        <p style={{fontSize:'2.5em',color:'black',fontWeight:"bold",margin:'1em',}}>{project.name}</p>
+                        <p style={{fontSize:'25px',color:'black',fontWeight:"bold",margin:'1em',}}>{project.name}</p>
 
                         <a
                         href={project.link} 
                         key={project.id} 
                         className={project.cName} 
-                        style={{height:'40em',
-                        width:'35em',
-                        margin:'1em',
+                        style={{height:'400px',
+                        width:'300px',
                         background:`url(${project.img})`,
-                        backgroundPosition:'left center',
+                        backgroundPosition:'center',
                         backgroundRepeat:'no-repeat',
-                        backgroundSize:'512px 315px',
+                        backgroundSize:'cover',
                         borderRadius:'0.5em',
                         border:'5px solid #FFCB05',
                         cursor:'pointer',
                         display:"flex",
-                        flexWrap:"wrap",
-                        alignItems:'flex-start',
-                        justifyContent:'center'
+            
+                        
+                        
 
                         }}>
                     

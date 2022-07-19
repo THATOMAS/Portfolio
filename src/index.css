@@ -411,15 +411,18 @@ width: 100vw;
 }
 
 #portfolio-projects{
-  height: max-content;
+  height: 100vh;
   width: 100vw;
   display: flex;
-  align-items:space-around;
-  justify-content:space-around;
-  flex-wrap:wrap;
-  margin-top:5em ;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+#project-box{
+  height: fit-content;
+  width: fit-content;
+}
 
 #info-box{
   height: 100vh;
@@ -428,6 +431,8 @@ width: 100vw;
   font-size: 2em;
   color: black;
 }
+
+
 
 /*Hire me page*/
 
