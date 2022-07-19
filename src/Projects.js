@@ -8,6 +8,7 @@ const Projects = [
     img: require("./assets/Portfolio/menu.png"),
     category: "React",
     cName: "single-project",
+    link:"https://thatosmenu.web.app/"
   },
   {
     id: 2,
